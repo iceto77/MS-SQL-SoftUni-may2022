@@ -22,7 +22,7 @@ SELECT [FirstName] + '.' + [LastName] + '@' + 'softuni.bg'
 	AS [Full Email Addres] 
   FROM [Employees]
 
---07.	Find All Different Employees’ Salaries
+--07.	Find All Different EmployeesвЂ™ Salaries
 SELECT DISTINCT [Salary]
 		   FROM [Employees]
 
@@ -91,7 +91,7 @@ GO
 
 SELECT * FROM [V_EmployeeNameJobTitle]
 
---17 втори вариант, не се поддържа от Judge
+--17 ГўГІГ®Г°ГЁ ГўГ Г°ГЁГ Г­ГІ, Г­ГҐ Г±ГҐ ГЇГ®Г¤Г¤ГєГ°Г¦Г  Г®ГІ Judge
 GO
 
 CREATE OR ALTER VIEW [V_EmployeeNameJobTitle] 
