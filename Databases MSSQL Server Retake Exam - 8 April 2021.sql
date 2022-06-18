@@ -210,7 +210,7 @@ BEGIN
 END
 
 GO
---това не се дава в judge, само за мой тест
+--ГІГ®ГўГ  Г­ГҐ Г±ГҐ Г¤Г ГўГ  Гў judge, Г±Г Г¬Г® Г§Г  Г¬Г®Г© ГІГҐГ±ГІ
 SELECT dbo.udf_HoursToComplete(OpenDate, CloseDate) AS TotalHours
    FROM Reports
 
@@ -244,11 +244,6 @@ BEGIN
 END
 
 GO
---това не се дава в judge, само за мой тест
+--ГІГ®ГўГ  Г­ГҐ Г±ГҐ Г¤Г ГўГ  Гў judge, Г±Г Г¬Г® Г§Г  Г¬Г®Г© ГІГҐГ±ГІ
 EXEC usp_AssignEmployeeToReport 30, 1
 EXEC usp_AssignEmployeeToReport 17, 2
-
-
-
-
-SELECT ISNULL(NULL,'TEST')
