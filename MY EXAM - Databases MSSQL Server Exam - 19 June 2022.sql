@@ -207,7 +207,7 @@ BEGIN
 END
 
 GO
---това не се дава в judge, само за мой тест
+--ГІГ®ГўГ  Г­ГҐ Г±ГҐ Г¤Г ГўГ  Гў judge, Г±Г Г¬Г® Г§Г  Г¬Г®Г© ГІГҐГ±ГІ
 SELECT dbo.udf_GetVolunteersCountFromADepartment ('Education program assistant')
 SELECT dbo.udf_GetVolunteersCountFromADepartment ('Guest engagement')
 SELECT dbo.udf_GetVolunteersCountFromADepartment ('Zoo events')
@@ -232,7 +232,7 @@ BEGIN
 END
 
 GO
---това не се дава в judge, само за мой тест
+--ГІГ®ГўГ  Г­ГҐ Г±ГҐ Г¤Г ГўГ  Гў judge, Г±Г Г¬Г® Г§Г  Г¬Г®Г© ГІГҐГ±ГІ
 EXEC usp_AnimalsWithOwnersOrNot 'Pumpkinseed Sunfish'
 EXEC usp_AnimalsWithOwnersOrNot 'Hippo'
 EXEC usp_AnimalsWithOwnersOrNot 'Brown bear'
